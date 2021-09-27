@@ -1,0 +1,672 @@
+/* 
+Theme Name: Nischinto Medical Landing Page
+Author: Nabil Siddik
+Support: nabilsiddik90@gmail.com
+Description: This is a Medical landing page name Nischinto Medical Landing page.
+Version: 1.0
+*/
+/* CSS Index 
+--------------------
+1. Global Variable
+2. Theme Default Css
+3. Topbar_section
+4. jquery mean menu
+5. Header_section
+6. slider_section
+7. about_section
+8. video-area
+9. counter
+10. footer
+*/
+/***** Global Variable *****/
+/***** 1. Theme default css *****/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #666666;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #111111;
+  margin-top: 0;
+  font-style: normal;
+  text-transform: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normarl;
+}
+
+.no-margin-top {
+  margin-top: 0px !important;
+}
+
+.no-margin-bottom {
+  margin-top: 0px !important;
+}
+
+.no-margin-left {
+  margin-top: 0px !important;
+}
+
+.no-margin-right {
+  margin-top: 0px !important;
+}
+
+.section-header .seperator {
+  margin: 10px 0;
+}
+
+.section-header .sep-line {
+  width: 42px;
+  height: 2px;
+  background: #0cb8b6;
+}
+
+.section-header .sep-img {
+  margin: 0 20px;
+  animation: textrotate 6s linear infinite;
+}
+
+@keyframes textrotate {
+  0% {
+    transform: rotateY(360deg);
+  }
+}
+
+/**** Get Started *****/
+/** Start Topbar Section **/
+#topbar_section {
+  padding: 10px 0;
+  border-bottom: 1px solid #0cb8b6;
+}
+
+#topbar_section .topbar-left span {
+  font-size: 14px;
+}
+
+#topbar_section .topbar-left .info .email {
+  margin-right: 30px;
+}
+
+#topbar_section .topbar-left .info .icon {
+  margin-right: 7px;
+}
+
+#topbar_section .topbar-right .appointment span {
+  color: #0cb8b6;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: right;
+  display: block;
+}
+
+/** End Topbar Section **/
+/* Start Jquery Mean Menu Design */
+.mean-container .mean-bar {
+  background: transparent;
+}
+
+.mean-container a.meanmenu-reveal span::before {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background: #666666;
+  display: block;
+  margin-top: 4px;
+}
+
+.mean-container .mean-bar {
+  margin-top: -41px;
+}
+
+.mean-container a.meanmenu-reveal {
+  padding: 8px 12px;
+  padding-right: 21px;
+  margin: 9px 0px;
+}
+
+.mean-container a.meanmenu-reveal {
+  color: #666666;
+}
+
+/* End Jquery Mean Menu Design */
+/** Start Header Section **/
+#header_section {
+  padding: 20px 0;
+}
+
+#header_section .header-menu ul {
+  text-align: right;
+}
+
+#header_section .header-menu ul li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+#header_section .header-menu ul li:last-child {
+  padding-right: 0;
+}
+
+#header_section .header-menu ul li a {
+  color: #666666;
+  font-weight: 500;
+}
+
+#header_section .header-menu ul li a.active {
+  color: #0cb8b6;
+  border-bottom: 2px solid #0cb8b6;
+  padding-bottom: 5px;
+}
+
+/** End Header Section **/
+/** Start Slider Section **/
+#slider_section {
+  height: 750px;
+}
+
+#slider_section .each-slide {
+  height: 750px;
+}
+
+#slider_section .slide-1 {
+  background-image: url("../img/slider/slider-img-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#slider_section .slide-2 {
+  background-image: url("../img/slider/slider-img-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#slider_section .slider-content {
+  padding: 264px 0;
+}
+
+#slider_section .slider-content h1 {
+  margin-bottom: 20px;
+}
+
+#slider_section .slider-content p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+#slider_section .slider-content a {
+  padding: 9px 27px;
+  font-weight: 500;
+}
+
+#slider_section .slider-content .primary-btn {
+  margin-right: 10px;
+}
+
+#slider_section .slider-content .primary-btn a {
+  background: #0CB8B6;
+  border: none;
+}
+
+/** End Slider Section **/
+/** Start Service Box Section **/
+#service_box {
+  padding: 115px 0;
+}
+
+#service_box .card {
+  padding: 15px 15px;
+}
+
+#service_box .card-one .box-icon {
+  color: #6758f3;
+  font-size: 50px;
+  background: #EFEEFE;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 2;
+  border-radius: 50%;
+}
+
+#service_box .card-two .box-icon {
+  color: #37af47;
+  font-size: 50px;
+  background: #EAF7EC;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 2;
+  border-radius: 50%;
+}
+
+#service_box .card-three .box-icon {
+  color: #e6492d;
+  font-size: 50px;
+  background: #FDECE9;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 2;
+  border-radius: 50%;
+}
+
+#service_box .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+/** End Service Box Section **/
+/** Start About Section **/
+#about_section {
+  padding-bottom: 115px;
+}
+
+#about_section .about-founder {
+  padding-right: 100px;
+}
+
+#about_section .about-founder h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#about_section .founder-info {
+  margin-top: 30px;
+}
+
+#about_section .founder-info .founder-img {
+  margin-right: 20px;
+}
+
+#about_section .founder-info .founder-text {
+  margin-top: 5px;
+}
+
+#about_section .founder-info .founder-text h3 {
+  margin-bottom: 0;
+  color: #0cb8b6;
+}
+
+#about_section .timetable .card {
+  border-color: #0cb8b6;
+  padding: 15px 10px;
+}
+
+#about_section .timetable h3 {
+  color: #0cb8b6;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#about_section .date-time ul li {
+  border-bottom: 1px dashed #b5b5b5;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#about_section .date-time ul li div {
+  display: inline-block;
+}
+
+#about_section .date-time ul li .time {
+  float: right;
+}
+
+#about_section .call-now h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+#about_section .call-now p {
+  margin: 0;
+}
+
+#about_section .call-now .call-icon {
+  font-size: 30px;
+  color: #000;
+}
+
+#about_section .call-now .call-text {
+  margin-left: 15px;
+}
+
+/** End About Section **/
+/** Start Department Section **/
+#department_section {
+  padding-bottom: 115px;
+}
+
+#department_section .department-filter-box ul {
+  text-align: center;
+}
+
+#department_section .department-filter-box ul li {
+  display: inline-block;
+  min-width: 180px;
+  height: 110px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+#department_section .department-filter-box ul li a {
+  margin: 14px 0px;
+  display: block;
+}
+
+#department_section .department-filter-box ul li span {
+  color: #111111;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#department_section .department-filter-box .d-filter-icon {
+  font-size: 40px;
+  text-align: center;
+}
+
+#department_section .department-filter-box ul li:nth-child(1) {
+  background: #E6F8F8;
+  margin-left: 0;
+}
+
+#department_section .department-filter-box ul li:nth-child(1) .d-filter-icon {
+  color: #0cb8b6;
+}
+
+#department_section .department-filter-box ul li:nth-child(2) {
+  background: #FDECE9;
+}
+
+#department_section .department-filter-box ul li:nth-child(2) .d-filter-icon {
+  color: #e6492d;
+}
+
+#department_section .department-filter-box ul li:nth-child(3) {
+  background: #EAF7EC;
+}
+
+#department_section .department-filter-box ul li:nth-child(3) .d-filter-icon {
+  color: #37af47;
+}
+
+#department_section .department-filter-box ul li:nth-child(4) {
+  background: #E7EFFB;
+}
+
+#department_section .department-filter-box ul li:nth-child(4) .d-filter-icon {
+  color: #1665d8;
+}
+
+#department_section .department-filter-box ul li:nth-child(5) {
+  background: #FEF7E9;
+}
+
+#department_section .department-filter-box ul li:nth-child(5) .d-filter-icon {
+  color: #f6ab2f;
+}
+
+#department_section .department-filter-box ul li:nth-child(6) {
+  background: #9EA0A5;
+  margin-right: 0;
+}
+
+#department_section .department-filter-box ul li:nth-child(6) .d-filter-icon {
+  color: #ffffff;
+}
+
+#department_section .department-filter-box ul li:nth-child(6) span {
+  color: #fff;
+}
+
+#department_section .filter-content-img img {
+  display: block;
+  margin: auto;
+}
+
+#department_section .filter-content-text a {
+  border: none;
+  padding: 9px 27px;
+}
+
+#department_section .filter-content-text .bold-p {
+  font-weight: bold;
+  color: #111;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#department_section .filter-content-text .light-p {
+  margin-bottom: 20px;
+}
+
+#department_section .filter-content-text h2 {
+  font-size: 32px;
+}
+
+#department_section .filter-content-text span {
+  color: #0cb8b6;
+}
+
+#department_section .filter-content-text .button a {
+  background: #0cb8b6;
+}
+
+/** Start Department Section **/
+#appointment_section {
+  padding: 115px;
+  position: relative;
+  background: #f9fafc;
+}
+
+#appointment_section .appointment-right-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#appointment_section .appointment-bottom-shape img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#appointment_section .appointment-form {
+  padding-bottom: 100px;
+}
+
+#appointment_section .appointment-form label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+#appointment_section .submit-btn input[type="submit"] {
+  background: #0cb8b6;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+/** End Department Section **/
+/** Start Specialists section **/
+#specialists_section {
+  padding: 115px 0;
+}
+
+#specialists_section .card h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#specialists_section .card .image {
+  overflow: hidden;
+  position: relative;
+}
+
+#specialists_section .card .image img {
+  transition: 1s;
+}
+
+#specialists_section .card .image .img-shape img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all .4s ease;
+}
+
+#specialists_section .card .card-link {
+  position: relative;
+}
+
+#specialists_section .card .link-button {
+  background: #0cb8b6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  transform: scale(0);
+  transition: all .4s ease;
+}
+
+#specialists_section .card .link-button a {
+  color: #fff;
+}
+
+#specialists_section .card .card-head {
+  position: relative;
+}
+
+#specialists_section .card .card-social-icon ul {
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+#specialists_section .card .card-social-icon ul li {
+  display: inline-block;
+  background-color: #fff;
+  padding: 3px 6px;
+  margin: 0 4px;
+  transform: scale(0);
+  transition: all .4s ease;
+  border-radius: 5px;
+}
+
+#specialists_section .card .card-social-icon ul li a {
+  color: #0cb8b6;
+}
+
+#specialists_section .card:hover .image img {
+  transform: scale(1.1);
+}
+
+#specialists_section .card:hover .image .img-shape img {
+  opacity: 1;
+  z-index: 10;
+}
+
+#specialists_section .card:hover .card-link .link-button {
+  transform: scale(1);
+}
+
+#specialists_section .card:hover .card-social-icon ul li {
+  transform: scale(1);
+}
+
+#specialists_section .card-body a h3 {
+  transition: .4s;
+}
+
+#specialists_section .card-body a h3:hover {
+  color: #0cb8b6;
+}
+
+/** End Specialists section **/
+/*# sourceMappingURL=style.css.map */
